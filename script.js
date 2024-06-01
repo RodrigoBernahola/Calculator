@@ -39,6 +39,7 @@ function operate(operator, numberOne, numberTwo) {
 let paraDisplay = document.querySelector('#displayParagraph');
 let divDigits = document.querySelector('.underDisplay');
 let equalButton = document.querySelector('#equal');
+let clearButton = document.querySelector('#clear');
 
 divDigits.addEventListener('click', (evento) => {
     let string = evento.target.textContent;
@@ -73,3 +74,8 @@ equalButton.addEventListener('click', (evento) => {
     paraDisplay.textContent = result;
 });
 
+clearButton.addEventListener('click', (evento) => {
+
+    paraDisplay.textContent = '';
+
+})
