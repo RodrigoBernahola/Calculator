@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(190, 164, 11, 0.61);
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container div {
+    background-color: orange;
+}
